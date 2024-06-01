@@ -77,7 +77,7 @@ function Chats({ socket, username, room, setShowChat }) {
     return (
         <div className="chat-container">
             <header className="chat-header">
-                <h1><i className="fas fa-smile"></i> ChatCord</h1>
+                <h1><i className="fas fa-smile"></i> Chat App</h1>
                 <a id="leave-btn" className="btn" onClick={leaveRoom}>Leave Room</a>
             </header>
             <main className="chat-main">
